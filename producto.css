@@ -1,0 +1,59 @@
+body{
+    background-image: url(good\ \(1\).jpg);
+    background-size: 100%;
+}
+section div {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(248, 0, 0, 0);
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section div img {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.precios {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 200px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-navegacion {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.link {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+section div img:hover{
+    width: 250px;
+    height: 250px;
+}
